@@ -21,13 +21,6 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        spaceId,
-        accessToken
-      }
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
